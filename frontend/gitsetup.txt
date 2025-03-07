@@ -1,0 +1,85 @@
+PS C:\Users\HP\Desktop\portfoli> git init
+Initialized empty Git repository in C:/Users/HP/Desktop/portfoli/.git/
+PS C:\Users\HP\Desktop\portfoli> ls
+
+
+    Directory: C:\Users\HP\Desktop\portfoli
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          3/5/2025   3:06 PM                frontend
+-a----          3/5/2025   3:07 PM            315 .gitignore
+
+
+PS C:\Users\HP\Desktop\portfoli> ls a
+ls : Cannot find path 'C:\Users\HP\Desktop\portfoli\a' because it does not exist.
+At line:1 char:1
++ ls a
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\HP\Desktop\portfoli\a:String) [Get-ChildItem], ItemNotF  
+   oundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\HP\Desktop\portfoli> dir /a
+>>
+dir : Cannot find path 'C:\a' because it does not exist.
+At line:1 char:1
++ dir /a
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\a:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\HP\Desktop\portfoli> ls -Force
+   
+
+    Directory: C:\Users\HP\Desktop\portfoli
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d--h--          3/5/2025   3:07 PM                .git
+d-----          3/5/2025   3:06 PM                frontend
+-a----          3/5/2025   3:07 PM            315 .gitignore
+
+
+PS C:\Users\HP\Desktop\portfoli> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\HP\Desktop\portfoli> git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: adding embedded git repository: frontend
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> frontend
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached frontend
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config advice.addEmbeddedRepo false"
+PS C:\Users\HP\Desktop\portfoli> git commit -m "Initial Commit"
+[main (root-commit) 3c5745f] Initial Commit
+ 2 files changed, 25 insertions(+)
+ create mode 100644 .gitignore
+ create mode 160000 frontend
+PS C:\Users\HP\Desktop\portfoli> git remote add origin https://github.com/RAO-UMAIR/portfolio.git
+PS C:\Users\HP\Desktop\portfoli> git branch -M main
+PS C:\Users\HP\Desktop\portfoli> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 443 bytes | 221.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/RAO-UMAIR/portfolio.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\HP\Desktop\portfoli> 
