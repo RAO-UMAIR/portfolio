@@ -26,9 +26,9 @@ function About() {
         </div>
 
         <div>
-          <div className="md:mt-10 flex justify-center">
+          <div className="md:mt-16 flex justify-center">
             <div className="w-full max-w-xl text-center">
-              <div className="grid gap-3 md:ml-0 md:grid-cols-2 md:gap-6 md:text-lg text-gray-200 font-bold">
+              <div className="grid gap-3 md:ml-0 md:grid-cols-2 md:gap-6 md:text-xl text-gray-200 font-bold">
                 <div className="flex justify-start md:justify-center gap-2">
                   <p>Name:</p>
                   <p className="text-white">Rao Umair</p>
@@ -69,11 +69,11 @@ function About() {
                 </div>
               </div>
 
-              <h3 className="text-white font-bold mb-3 mt-4 border-b-2 border-white inline-block md:text-3xl md:m-12 md:text-center">
+              <h3 className="text-white font-bold mb-3 mt-4 md:mt-20 border-b-2 border-white inline-block md:text-4xl md:m-12 md:text-center">
                 Education
               </h3>
 
-              <p className="text-gray-200 text-left   md:text-xl md:text-center font-bold">
+              <p className="text-gray-200 text-left   md:text-3xl md:text-center font-bold">
                 I'm currently pursuing a degree in
                 <span className="font-bold text-green-600">
                   {" "}
