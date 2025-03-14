@@ -51,7 +51,7 @@ function Header() {
     >
       <div>
         <img
-          src="/images/Logo.webp"
+          src="/images/logo.webp"
           alt="logo"
           className="w-10 md:w-20 rounded-full"
         />
