@@ -6,10 +6,11 @@ function Skills() {
       id="skills"
       className="p-4 pt-12  md:min-h-screen  md:pt-32 bg-gray-700"
     >
-      <h2 className="text-2xl font-bold text-white mb-5 text-center md:text-5xl md:mb-20 ">
-        My Skills
-      </h2>
-
+      <div className="flex justify-center">
+        <h2 className="text-2xl font-bold text-white mb-5 border-b-2 md:border-b-4 border-green-600 md:text-5xl md:mb-20 ">
+          My Skills
+        </h2>
+      </div>
       <div className="md:grid md:grid-cols-2 md:gap-y-20 md:px-20 text-center">
         <div className="flex items-center gap-4 mb-8 md:flex-col md:text-center md:gap-2">
           <div className="bg-gray-800 p-3 rounded-md ">

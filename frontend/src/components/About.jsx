@@ -4,9 +4,11 @@ function About() {
       id="about"
       className="p-4  md:min-h-screen pt-12   md:pt-32 bg-gray-800"
     >
-      <h1 className="text-2xl  md:text-5xl font-bold text-white text-center">
-        ABOUT ME
-      </h1>
+      <div className="flex justify-center">
+        <h1 className="text-2xl  md:text-5xl font-bold text-white border-b-2 md:border-b-4 border-green-600">
+          ABOUT ME
+        </h1>
+      </div>
       <div className="p-6 md:p-12  justify-between md:pt-20">
         <div>
           <h2 className="text-white text-xl mb-4 md:text-4xl md:mb-8">
@@ -35,12 +37,12 @@ function About() {
                 <div className="flex justify-start md:justify-center gap-2">
                   <p>Email:</p>
                   <a
-                    href="mailto:rao991873@gmail.com"
+                    href="mailto:ru1063936@gmail.com"
                     className="text-blue-400 hover:text-blue-600"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    rao991873@gmail.com
+                    ru1063936@gmail.com
                   </a>
                 </div>
 

@@ -3,9 +3,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import Portfolio from "./components/Portfolio";
-import Reviews from "./components/Reviews";
 import Preloader from "./ui/Preloader";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -27,8 +27,8 @@ function App() {
           <Header />
           <Home />
           <About />
-          <Portfolio />
-          <Reviews />
+          <Skills />
+          <Projects />
           <Contact />
         </>
       )}

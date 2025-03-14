@@ -1,4 +1,4 @@
-import { FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import { FiverIcon } from "../ui/Fivericon";
 import { HiOutlineMail } from "react-icons/hi";
 import { useState } from "react";
@@ -113,11 +113,15 @@ function Contact() {
               </p>
             </div>
           </a>
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/RAO-UMAIR"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="flex items-center gap-2">
-              <FaFacebook className="text-blue-500 text-3xl md:text-4xl" />
+              <FaGithub className="text-white text-3xl md:text-4xl" />
               <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
-                Facebook
+                Github
               </p>
             </div>
           </a>
@@ -130,7 +134,7 @@ function Contact() {
             </div>
           </a>
           <a
-            href="mailto:rao991873@gmail.com"
+            href="mailto:ru1063936@gmail.com"
             className="col-span-2 text-blue-400 hover:text-blue-600"
             target="_blank"
             rel="noopener noreferrer"

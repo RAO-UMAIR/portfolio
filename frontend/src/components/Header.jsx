@@ -45,7 +45,7 @@ function Header() {
 
   return (
     <header
-      className={`fixed top-0 font-bold text-gray-200 left-0 w-full flex justify-between items-center z-20 transition-all duration-300 ${
+      className={`fixed top-0 font-bold text-gray-100 left-0 w-full flex justify-between items-center z-20 transition-all duration-300 ${
         isScroll ? "bg-gray-900 shadow-md" : "bg-transparent"
       }`}
     >
@@ -57,8 +57,8 @@ function Header() {
         />
       </div>
 
-      <nav className="hidden md:flex text-lg flex-row justify-between items-center gap-7 mr-4">
-        {["home", "about", "projects", "reviews", "contact"].map((section) => (
+      <nav className="hidden md:flex text-lg md:text-2xl flex-row justify-between items-center gap-7 mr-4">
+        {["home", "about", "skills", "projects", "contact"].map((section) => (
           <Link
             key={section}
             to={section}
@@ -101,7 +101,7 @@ function Header() {
           />
 
           <nav className="md:hidden flex flex-col gap-4 mt-10 px-4">
-            {["home", "about", "projects", "reviews", "contact"].map(
+            {["home", "about", "skills", "projects", "contact"].map(
               (section) => (
                 <Link
                   key={section}
