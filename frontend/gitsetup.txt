@@ -83,3 +83,4 @@ To https://github.com/RAO-UMAIR/portfolio.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 PS C:\Users\HP\Desktop\portfoli> 
+    // "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
