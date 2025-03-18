@@ -1,8 +1,9 @@
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
-import { FiverIcon } from "../ui/Fivericon";
+// import { FiverIcon } from "../ui/Fivericon";
 import { HiOutlineMail } from "react-icons/hi";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import IndeedIcon from "../ui/Indeedicon";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -100,7 +101,11 @@ function Contact() {
 
       <footer className="mt-10 px-4 py-9 md:mt-20 md:px-8  md:py-8 bg-gray-700">
         <div className="grid grid-cols-2 gap-4 md:flex md:justify-between md:items-center">
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/rao-umair-250a17356/?trk=opento_sprofile_details"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="flex items-center gap-2">
               <FaLinkedin className="text-white text-3xl md:text-4xl" />
               <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
@@ -108,14 +113,28 @@ function Contact() {
               </p>
             </div>
           </a>
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          {/* <a href="/" target="_blank" rel="noopener noreferrer">
             <div className="flex items-center gap-2">
               <FiverIcon className="w-6 h-6 md:w-10 md:h-12" />
               <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
                 Fiverr
               </p>
             </div>
+          </a> */}
+
+          <a
+            href="https://profile.indeed.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex items-center gap-2">
+              <IndeedIcon className="w-6 h-6 md:w-10 md:h-12" />
+              <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-green-400 transition-all duration-300">
+                Indeed
+              </p>
+            </div>
           </a>
+
           <a
             href="https://github.com/RAO-UMAIR"
             target="_blank"
@@ -128,7 +147,11 @@ function Contact() {
               </p>
             </div>
           </a>
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/ru_.792/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div className="flex items-center gap-2">
               <FaInstagram className="text-pink-500 text-3xl md:text-4xl" />
               <p className="text-lg md:text-2xl text-gray-200 font-bold hover:text-green-400 transition-all duration-300">

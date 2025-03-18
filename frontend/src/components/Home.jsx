@@ -59,7 +59,10 @@ function Home() {
         <p className="text-gray-200 text-2xl font-bold mb-8 md:text-4xl md:mb-14">
           From Pakistan
         </p>
-        <Button to="/" text="Hire Me" />
+        <Button
+          to="https://www.linkedin.com/in/rao-umair-250a17356/?trk=opento_sprofile_details"
+          text="Hire Me"
+        />
 
         <div className="mt-16 md:mt-20 animate-bounce">
           <FaAngleDown className="text-green-700 text-3xl mx-auto" />
